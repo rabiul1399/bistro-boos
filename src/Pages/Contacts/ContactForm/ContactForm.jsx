@@ -2,9 +2,9 @@ import { IoIosSend } from "react-icons/io";
 
 const ContactForm = () => {
   return (
-    <div className="m-8 bg-base-300 py-8 ">
+    <div className="w-auto m-8 bg-base-300 py-8 ">
       <form className="mx-16 text-center">
-        <div className="flex justify-between">
+        <div className="md:flex justify-between">
           <div>
             <label className="label">
               <span className="label-text">Name*</span>
@@ -13,7 +13,7 @@ const ContactForm = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className=" w-96 input rounded-none  border-none"
+              className=" md:w-96  input rounded-none  border-none"
             />
           </div>
           <div>
@@ -24,7 +24,7 @@ const ContactForm = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="w-96 input rounded-none  border-none"
+              className="md:w-96 input rounded-none  border-none"
             />
           </div>
         </div>
@@ -36,7 +36,7 @@ const ContactForm = () => {
             type="text"
             name="name"
             placeholder="Enter your phone number"
-            className="w-full input rounded-none  border-none"
+            className=" md:w-full input rounded-none  border-none"
           />
         </div>
         <div>
@@ -44,7 +44,7 @@ const ContactForm = () => {
             <span className="label-text">Message*</span>
           </label>
           <textarea
-            className="textarea rounded-none w-full  h-40"
+            className="textarea rounded-none md:w-full  md:h-40"
             placeholder="Enter your message here"
           ></textarea>
         </div>

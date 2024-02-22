@@ -1,7 +1,7 @@
 import { FaPhoneAlt } from "react-icons/fa";
 const OurLocation = () => {
   return (
-    <div className="mx-8 flex gap-4 justify-center py-8">
+    <div className="mx-8 md:flex  gap-4 justify-center py-8">
       <div className=" h-52 w-72 border">
         <div className="bg-orange-300 p-4 text-center">
           <FaPhoneAlt />

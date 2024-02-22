@@ -14,7 +14,7 @@ const OrderFood = ({ items }) => {
   };
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4 md:mx-24 md:my-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-4 md:mx-24 md:my-8">
         {items.map((item) => (
           <FoodCard item={item} key={item._id} />
         ))}
